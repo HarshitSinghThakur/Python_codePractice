@@ -1,0 +1,22 @@
+#----------------------------------------------This program adds two numbers
+
+num1 = (input('Enter a no '))
+num2 = (input('Enter a no '))
+
+# Add two numbers
+sum = float(num1) + int(num2)
+
+# Display the sum
+print('The sum of {} and {} is {}'.format(num1, num2, sum))
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))     # both line gives same output
+
+"""
+In Python, a placeholder is a special symbol or syntax used to represent a value or variable that will be replaced with an actual value at runtime. Placeholders are typically used within strings to create 
+formatted output or messages. The most commonly used placeholders in Python are curly braces {} which are used in conjunction with the format method or formatted string literals (f-strings) to insert values 
+into a string.
+
+Here's a brief overview of how placeholders are used in Python:
+
+E.g   ---Curly Braces {} with format method:   """
+
+#-----------------------------------------------

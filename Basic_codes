@@ -1,3 +1,5 @@
+
+
 #----------------------------------------------This program adds two numbers
 
 num1 = (input('Enter a no '))
@@ -10,13 +12,98 @@ sum = float(num1) + int(num2)
 print('The sum of {} and {} is {}'.format(num1, num2, sum))
 print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))     # both line gives same output
 
+
+
 """
 In Python, a placeholder is a special symbol or syntax used to represent a value or variable that will be replaced with an actual value at runtime. Placeholders are typically used within strings to create 
-formatted output or messages. The most commonly used placeholders in Python are curly braces {} which are used in conjunction with the format method or formatted string literals (f-strings) to insert values 
+formatted output or messages. The most commonly used placeholders in Python are curly braces {} which are used in conjunction with the format method or formatted string literals       (f-strings) to insert values 
 into a string.
 
 Here's a brief overview of how placeholders are used in Python:
 
 E.g   ---Curly Braces {} with format method:   """
 
-#-----------------------------------------------
+
+
+
+
+
+
+#---------------------------------------- Find the Square Root
+
+# ** (double asterisk)  or  (exponentiation operator) in Python.is a power operator in Python.
+It is used to raise one number to the power of another. For example, to calculate 2 raised to the power of 3, you would use 2 ** 3, which would return 8.
+
+
+num = 4
+SqRoot = num ** 0.5
+print('Sq root of the no %0.3f is %0.3f' %(num,SqRoot))
+
+
+
+
+
+
+
+#-------------------------------   Calculate the Area of a Triangle
+
+a = float(input("Enter First Side "))
+b = float(input("Enter Second Side "))
+c = float(input("Enter Third Side "))
+
+# calculate the semi-perimeter
+s = (a+b+c)/2
+
+area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+print("Square Root of the no is: %0.2f"  %area)
+
+
+
+
+
+
+#-------------------------- Swap Two Variables
+
+
+a = float(input("Enter value of a "))
+b = float(input("Enter value of b "))
+
+temp = a
+a = b
+b = temp
+
+print("Value of a after Swapping is: %0.2f"  %a)
+print("Value of b after Swapping is: %0.2f"  %b)
+
+print('The value of x after swapping: {}'.format(a))
+print('The value of y after swapping: {}'.format(b))
+
+
+
+#--------------------------------- Program to Generate a Random Number
+
+# To generate random number in Python, randint() function is used. This function is defined in random module.
+
+# importing the random module
+import random
+
+print(random.randint(0,9))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
